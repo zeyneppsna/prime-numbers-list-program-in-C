@@ -1,10 +1,12 @@
 # prime-numbers-list-program-in-C
 This C program lists all prime numbers between a user-given start and end number using a function to check primality.
 
+
+
+
+
 #include <stdio.h>
 #include <stdbool.h>
-
-
 bool isPrime(int num) {
     if (num < 2) return false;
     for (int i = 2; i * i <= num; i++) {

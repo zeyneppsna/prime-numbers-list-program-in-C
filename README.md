@@ -4,7 +4,6 @@ This C program lists all prime numbers between a user-given start and end number
 #include <stdio.h>
 #include <stdbool.h>
 
-
 bool isPrime(int num) {
     if (num < 2) return false;
     for (int i = 2; i * i <= num; i++) {
@@ -14,7 +13,6 @@ bool isPrime(int num) {
 }
 int main() {
     int start, end;
-
     printf("Enter the start number: ");
     scanf("%d", &start);
     printf("Enter the end number: ");
@@ -33,3 +31,4 @@ int main() {
     printf("\n");
     return 0;
 }
+
